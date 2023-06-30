@@ -1,0 +1,29 @@
+unit Carro;
+
+interface
+
+type
+  TCarro = class
+    type TRoda = class
+      private
+        FTamanho: String;
+        procedure SetTamanho(const Value: String);
+      published
+      Property Tamanho  : String read FTamanho write SetTamanho;
+    end;
+    private
+    public
+      Property Nome     : String;
+      Property Modelo   : String;
+  end;
+
+implementation
+
+{ TCarro.TRoda }
+
+procedure TCarro.TRoda.SetTamanho(const Value: String);
+begin
+  FTamanho := Value;
+end;
+
+end.

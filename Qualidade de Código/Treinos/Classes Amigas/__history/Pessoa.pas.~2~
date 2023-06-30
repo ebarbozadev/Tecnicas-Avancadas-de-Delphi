@@ -1,0 +1,25 @@
+unit Pessoa;
+
+interface
+
+type
+  TPessoa = class
+  private
+  public
+    Property Nome : String;
+
+    Procedure Deficiente (Valor : String);
+end;
+
+type
+  TDeficiente = class(TPessoa)
+    private
+    public
+  end;
+
+type
+
+
+implementation
+
+end.

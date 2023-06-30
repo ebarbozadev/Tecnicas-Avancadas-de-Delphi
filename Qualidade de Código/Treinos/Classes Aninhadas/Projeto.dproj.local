@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/06/30 16:35:13.418,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/30 16:35:21.282,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/06/30 16:35:35.517,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Qualidade de Código\Treinos\Classes Aninhada\Carro.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/06/30 16:44:18.978,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Qualidade de Código\Treinos\Classes Aninhada\View.Principal.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/30 16:44:18.978,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Qualidade de Código\Treinos\Classes Aninhada\View.Principal.dfm=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/06/30 16:44:25.489,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Qualidade de Código\Treinos\Classes Aninhada\Projeto.dproj=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

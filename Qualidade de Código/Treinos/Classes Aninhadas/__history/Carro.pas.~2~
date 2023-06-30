@@ -1,0 +1,18 @@
+unit Carro;
+
+interface
+
+type
+  TCarro = class
+    type TRoda = class
+      Property Tamanho  : String;
+    end;
+    private
+    public
+      Property Nome     : String;
+      Property Modelo   : String;
+  end;
+
+implementation
+
+end.
