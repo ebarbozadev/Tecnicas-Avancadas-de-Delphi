@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/06/30 15:01:29.902,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/30 15:05:26.558,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/06/30 15:05:47.494,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Qualidade de Código\Aula 03 - Orientação a Eventos\Classe.Pessoa.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/06/30 15:13:00.130,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Qualidade de Código\Aula 03 - Orientação a Eventos\View.Principal.dfm=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/06/30 15:13:00.130,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Qualidade de Código\Aula 03 - Orientação a Eventos\View.Principal.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/06/30 15:41:14.894,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Qualidade de Código\Aula 03 - Orientação a Eventos\Project1.dproj=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

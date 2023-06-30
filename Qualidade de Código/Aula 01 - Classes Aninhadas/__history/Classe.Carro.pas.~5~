@@ -1,0 +1,35 @@
+unit Classe.Carro;
+
+interface
+
+type
+  TCarro = class
+    type
+      TRoda = class
+        NomeRoda  : String;
+      end;
+    private
+    public
+      Nome        : String;
+      Modelo      : String;
+      Roda        : TRoda;
+
+    function mostraCarro : String;
+  end;
+
+implementation
+
+{ TCarro }
+
+{ TCarro }
+
+function TCarro.mostraCarro: String;
+begin
+  Nome           := 'BWM';
+  Modelo         := 'e180';
+  Roda.NomeRoda  := '15';
+
+  Result         := 'Nome: ' + nome + ' Modelo: ' + modelo + ' Tamanho da Roda: ' + Roda.NomeRoda;
+end;
+
+end.

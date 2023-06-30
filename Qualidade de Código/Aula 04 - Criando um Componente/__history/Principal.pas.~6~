@@ -1,0 +1,40 @@
+unit Principal;
+
+interface
+
+uses
+  System.Classes;
+
+procedure register;
+
+type
+  TEventos = class(TComponent)
+    private
+    FSobreNome: String;
+    procedure SetSobreNome(const Value: String);
+    public
+      function TamanhoString(Value : String) : Integer;
+    published
+      property SobreNome : String read FSobreNome write SetSobreNome;
+  end;
+
+implementation
+
+{ TEventos }
+
+procedure register;
+begin
+  RegisterComponents('Other ', [TEventos]);
+end;
+
+procedure TEventos.SetSobreNome(const Value: String);
+begin
+  FSobreNome := Value;
+end;
+
+function TEventos.TamanhoString(Value: String): Integer;
+begin
+  Result:= Length(Value);
+end;
+
+end.

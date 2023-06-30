@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/06/30 15:41:15.520,=rtl.dcp</Transaction>
+    <Transaction>2023/06/30 15:42:00.832,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Qualidade de Código\Aula 04 - Criando um Componente\ComponenteEventos.dproj=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Package1.dproj</Transaction>
+    <Transaction>2023/06/30 15:42:24.517,=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Qualidade de Código\Aula 04 - Criando um Componente\Unit1.pas</Transaction>
+    <Transaction>2023/06/30 15:42:30.578,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Qualidade de Código\Aula 04 - Criando um Componente\Principal.pas=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Qualidade de Código\Aula 04 - Criando um Componente\Unit1.pas</Transaction>
+    <Transaction>2023/06/30 15:49:19.032,=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Qualidade de Código\Aula 04 - Criando um Componente\Unit1.pas</Transaction>
+    <Transaction>2023/06/30 15:54:18.213,=vcl.dcp</Transaction>
+    <Transaction>2023/06/30 15:54:30.875,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Qualidade de Código\Aula 04 - Criando um Componente\View.Principal.dfm=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Qualidade de Código\Aula 04 - Criando um Componente\Unit1.dfm</Transaction>
+    <Transaction>2023/06/30 15:54:30.875,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Qualidade de Código\Aula 04 - Criando um Componente\View.Principal.pas=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Qualidade de Código\Aula 04 - Criando um Componente\Unit1.pas</Transaction>
+  </Transactions>
+</BorlandProject>

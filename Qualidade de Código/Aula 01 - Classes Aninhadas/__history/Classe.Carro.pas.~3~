@@ -1,0 +1,32 @@
+unit Classe.Carro;
+
+interface
+
+type
+  TCarro = class
+    type
+      TRoda = class
+        NomeRoda  : String;
+      end;
+    private
+    public
+      Nome        : String;
+      Modelo      : String;
+      Roda        : TRoda;
+
+    procedure MostraCarro;
+  end;
+
+implementation
+
+{ TCarro }
+
+procedure TCarro.MostraCarro;
+begin
+  Nome           := 'BWM';
+  Modelo         := 'e180';
+  Roda.NomeRoda  := '15'
+
+end;
+
+end.

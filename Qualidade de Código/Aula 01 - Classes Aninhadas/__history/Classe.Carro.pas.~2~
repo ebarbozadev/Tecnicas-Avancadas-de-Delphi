@@ -1,0 +1,19 @@
+unit Classe.Carro;
+
+interface
+
+type
+  TCarro = class
+    type
+      TRoda = class
+        NomeRoda  : String;
+      end;
+    private
+    public
+      Nome        : String;
+      Modelo      : String;
+  end;
+
+implementation
+
+end.
