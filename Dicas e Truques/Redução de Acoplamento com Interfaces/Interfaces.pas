@@ -1,0 +1,15 @@
+unit Interfaces;
+
+interface
+
+type
+  // Utilizamos o 'i' para Interface
+  iConexao = interface
+    // Gerar uma assinatura da interface
+    ['{F84C8953-0ADD-4E77-91DE-020D16F3040C}']
+    procedure Gravar;
+  end;
+
+implementation
+
+end.

@@ -1,0 +1,32 @@
+unit eUsuario.Model.Conexao.Firedac;
+
+interface
+
+uses
+  eUsuario.Model.Conexao.Interfaces;
+
+type
+  tModelConexaoFiredac = class(TInterfacedObject, iConexao)
+    private
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iConexao;
+  end;
+
+implementation
+
+{ tModelConexaoFiredac }
+
+constructor tModelConexaoFiredac.Create;
+begin
+
+end;
+
+destructor tModelConexaoFiredac.Destroy;
+begin
+
+  inherited;
+end;
+
+end.

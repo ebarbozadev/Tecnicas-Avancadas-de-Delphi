@@ -1,0 +1,29 @@
+unit eUsuario.Model.Conexao.Firedac;
+
+interface
+
+type
+  TClassePadrao = class(TInterfacedObject, iConexao)
+    private
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iConexao;
+  end;
+
+implementation
+
+{ TClassePadrao }
+
+constructor TClassePadrao.Create;
+begin
+
+end;
+
+destructor TClassePadrao.Destroy;
+begin
+
+  inherited;
+end;
+
+end.
