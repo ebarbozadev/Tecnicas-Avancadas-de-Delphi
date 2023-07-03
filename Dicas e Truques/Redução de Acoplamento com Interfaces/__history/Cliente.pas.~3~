@@ -1,0 +1,34 @@
+unit Cliente;
+
+interface
+
+uses
+  Conexao.SQLServer;
+
+type
+  TCliente = class
+    private
+    public
+      Nome     : String;
+      Conexao  : TConexaoSQLServer;
+
+      constructor Create;
+      destructor Destroy; override;
+  end;
+
+implementation
+
+{ TCliente }
+
+constructor TCliente.Create;
+begin
+  Conexao := TConexaoSQLServer.Create;
+end;
+
+destructor TCliente.Destroy;
+begin
+
+  inherited;
+end;
+
+end.

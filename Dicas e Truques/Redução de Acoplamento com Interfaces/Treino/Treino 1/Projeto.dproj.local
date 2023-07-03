@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/07/03 17:31:32.899,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/03 17:31:38.228,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/07/03 17:32:25.358,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Redução de Acoplamento com Interfaces\Treino\Treino 1\Interfaces.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/07/03 17:34:23.967,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/07/03 17:34:27.983,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Redução de Acoplamento com Interfaces\Treino\Treino 1\Pessoa.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/07/03 17:41:15.427,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Redução de Acoplamento com Interfaces\Treino\Treino 1\frmPrincipal.dfm=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/07/03 17:41:15.427,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Redução de Acoplamento com Interfaces\Treino\Treino 1\frmPrincipal.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/03 17:41:19.555,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Redução de Acoplamento com Interfaces\Treino\Treino 1\Projeto.dproj=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

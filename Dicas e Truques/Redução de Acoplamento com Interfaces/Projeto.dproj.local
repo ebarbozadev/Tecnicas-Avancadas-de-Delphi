@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/07/03 15:01:56.000.604,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/03 15:03:50.000.700,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/07/03 15:04:22.000.168,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Redução de Acoplamento com Interfaces\Conexao.SQLServer.pas</Transaction>
+    <Transaction>2023/07/03 15:05:40.000.741,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/07/03 15:05:50.000.734,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Redução de Acoplamento com Interfaces\Cliente.pas</Transaction>
+    <Transaction>2023/07/03 15:13:20.000.289,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/07/03 15:14:32.000.169,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/07/03 15:14:35.000.098,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Redução de Acoplamento com Interfaces\Interfaces.pas</Transaction>
+    <Transaction>2023/07/03 15:18:50.000.248,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Redução de Acoplamento com Interfaces\frmPrincipal.dfm</Transaction>
+    <Transaction>2023/07/03 15:18:50.000.248,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Redução de Acoplamento com Interfaces\frmPrincipal.pas</Transaction>
+    <Transaction>2023/07/03 15:18:59.000.042,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Redução de Acoplamento com Interfaces\Projeto.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
