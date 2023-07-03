@@ -10,11 +10,6 @@ type
     procedure Gravar;
   end;
 
-  iCliente = interface
-    ['{85B122F8-CFBD-44F4-8D5E-BAA3A1802A0B}']
-    function Nome : String;
-  end;
-
 implementation
 
 end.

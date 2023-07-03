@@ -9,13 +9,12 @@ type
   TCliente = class
     private
     public
-      function Nome : String;
-
+      Nome     : String;
       Conexao  : iConexao;
 
       procedure CadastrarCliente;
 
-      constructor Create(aConexao : iConexao);
+      constructor Create;
       destructor Destroy; override;
   end;
 
@@ -36,9 +35,9 @@ begin
   end;
 end;
 
-constructor TCliente.Create(aConexao : iConexao);
+constructor TCliente.Create;
 begin
-  Conexao := aConexao;
+
 end;
 
 destructor TCliente.Destroy;
