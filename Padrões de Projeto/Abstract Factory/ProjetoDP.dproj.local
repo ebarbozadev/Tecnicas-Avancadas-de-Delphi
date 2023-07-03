@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/07/03 14:29:02.708,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/03 14:32:40.841,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/07/03 14:32:53.838,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Padrões de Projeto\Abstract Factory\Model.Interfaces.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/07/03 14:33:31.558,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/07/03 14:33:39.627,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Padrões de Projeto\Abstract Factory\Model.Pessoa.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/07/03 14:36:47.873,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/07/03 14:36:52.469,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Padrões de Projeto\Abstract Factory\Model.Cliente.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/07/03 14:38:15.057,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Padrões de Projeto\Abstract Factory\Projeto.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/03 14:38:15.057,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Padrões de Projeto\Abstract Factory\Projeto.dfm=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/07/03 14:38:24.894,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Padrões de Projeto\Abstract Factory\ProjetoDP.dproj=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>
