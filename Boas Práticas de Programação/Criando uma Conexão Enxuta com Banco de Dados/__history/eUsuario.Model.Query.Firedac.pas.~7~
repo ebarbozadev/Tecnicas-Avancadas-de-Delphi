@@ -1,0 +1,37 @@
+unit eUsuario.Model.Query.Firedac;
+
+interface
+
+uses
+  eUsuario.Model.Conexao.Interfaces;
+
+type
+  TModelQueryFiredac = class(TInterfacedObject, iQuery)
+    private
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iQuery;
+  end;
+
+implementation
+
+{ TModelQueryFiredac }
+
+constructor TModelQueryFiredac.Create;
+begin
+
+end;
+
+destructor TModelQueryFiredac.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TModelQueryFiredac.New: iQuery;
+begin
+  Result:= Self.Create;
+end;
+
+end.
