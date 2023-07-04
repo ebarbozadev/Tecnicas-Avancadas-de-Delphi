@@ -1,0 +1,22 @@
+unit Conexao.MySQL;
+
+interface
+
+type
+  TConexaoMySQL = class
+  private
+    Mensagem: string;
+    public
+      procedure Gravar;
+  end;
+
+implementation
+
+{ TConexaoMySQL }
+
+procedure TConexaoMySQL.Gravar;
+begin
+  Mensagem   := 'MySQL';
+end;
+
+end.

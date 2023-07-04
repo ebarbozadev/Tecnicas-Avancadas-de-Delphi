@@ -1,0 +1,25 @@
+unit Conexao.SQLServer;
+
+interface
+
+uses
+  Interfaces;
+
+type
+  TConexaoSQLServer = class(TInterfacedObject, IConexao)
+  private
+    SQLServer: string;
+    public
+      procedure Gravar;
+  end;
+
+implementation
+
+{ TConexaoSQLServer }
+
+procedure TConexaoSQLServer.Gravar;
+begin
+  SQLServer   := 'SQLServer';
+end;
+
+end.
