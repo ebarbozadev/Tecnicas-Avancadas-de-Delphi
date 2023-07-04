@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 unit eUsuario.Model.Conexao.Firedac;
 
 interface
@@ -26,3 +27,33 @@ begin
 end;
 
 end.
+=======
+unit eUsuario.Model.Conexao.Firedac;
+
+interface
+
+type
+  TClassePadrao = class
+    private
+    public
+      constructor Create;
+      destructor Destroy; override;
+  end;
+
+implementation
+
+{ TClassePadrao }
+
+constructor TClassePadrao.Create;
+begin
+
+end;
+
+destructor TClassePadrao.Destroy;
+begin
+
+  inherited;
+end;
+
+end.
+>>>>>>> e569085b03d77a6071220260059459b3f617824c

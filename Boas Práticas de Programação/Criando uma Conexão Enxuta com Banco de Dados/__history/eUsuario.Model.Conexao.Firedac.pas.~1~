@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 unit eUsuario.Model.Conexao.Firedac;
 
 interface
@@ -5,3 +6,12 @@ interface
 implementation
 
 end.
+=======
+unit eUsuario.Model.Conexao.Firedac;
+
+interface
+
+implementation
+
+end.
+>>>>>>> e569085b03d77a6071220260059459b3f617824c

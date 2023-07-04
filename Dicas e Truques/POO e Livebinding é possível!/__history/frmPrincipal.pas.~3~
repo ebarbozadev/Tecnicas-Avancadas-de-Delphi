@@ -1,0 +1,78 @@
+unit frmPrincipal;
+
+interface
+
+uses
+  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.Bind.Components,
+  Data.Bind.ObjectScope, Vcl.StdCtrls, Vcl.Grids;
+
+type
+  TPessoa = class
+  private
+    FIdade: Integer;
+    FNome: String;
+    procedure SetIdade(const Value: Integer);
+    procedure SetNome(const Value: String);
+  public
+      constructor Create(vNome : String; vIdade : Integer);
+      property Nome    : String  read FNome  write SetNome;
+      property Idade   : Integer read FIdade write SetIdade;
+  end;
+
+type
+  TForm1 = class(TForm)
+    StringGrid1: TStringGrid;
+    Label1: TLabel;
+    Label2: TLabel;
+    edtNome: TEdit;
+    edtIdade: TEdit;
+    AdapterBindSource1: TAdapterBindSource;
+  private
+    FListaPessoa: TList<TPessoa>;
+    procedure SetListaPessoa(const Value: TList<TPessoa>);
+    { Private declarations }
+  public
+    { Public declarations }
+    property ListaPessoa : TList<TPessoa> read FListaPessoa write SetListaPessoa;
+    function carregarLista : TList<TPessoa>;
+  end;
+
+var
+  Form1: TForm1;
+
+implementation
+
+{$R *.dfm}
+
+{ TPessoa }
+
+constructor TPessoa.Create(vNome: String; vIdade: Integer);
+begin
+  FNome  := vNome;
+  FIdade := vIdade;
+end;
+
+procedure TPessoa.SetIdade(const Value: Integer);
+begin
+  FIdade := Value;
+end;
+
+procedure TPessoa.SetNome(const Value: String);
+begin
+  FNome := Value;
+end;
+
+{ TForm1 }
+
+procedure TForm1.carregarLista;
+begin
+  // Carregar Lista
+end;
+
+procedure TForm1.SetListaPessoa(const Value: TList<TPessoa>);
+begin
+  FListaPessoa := Value;
+end;
+
+end.

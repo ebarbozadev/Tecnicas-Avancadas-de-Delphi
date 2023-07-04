@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 unit Model.Cliente;
 
 interface
@@ -6,6 +7,16 @@ uses
   Model.Interfaces;
 
 type
+=======
+unit Model.Cliente;
+
+interface
+
+uses
+  Model.Interfaces;
+
+type
+>>>>>>> e569085b03d77a6071220260059459b3f617824c
   TModelCliente = class(TInterfacedObject, iCliente)
     private
     public
@@ -34,4 +45,8 @@ begin
   Result:= Self.Create;
 end;
 
+<<<<<<< HEAD
 end.
+=======
+end.
+>>>>>>> e569085b03d77a6071220260059459b3f617824c

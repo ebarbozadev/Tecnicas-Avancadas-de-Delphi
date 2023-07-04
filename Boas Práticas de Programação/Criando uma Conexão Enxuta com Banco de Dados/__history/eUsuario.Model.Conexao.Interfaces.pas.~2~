@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 unit eUsuario.Model.Conexao.Interfaces;
 
 interface
@@ -10,3 +11,17 @@ type
 implementation
 
 end.
+=======
+unit eUsuario.Model.Conexao.Interfaces;
+
+interface
+
+type
+  iConexao = interface
+    ['{B983D399-013F-4582-8E52-4C52DDBED6BF}']
+  end;
+
+implementation
+
+end.
+>>>>>>> e569085b03d77a6071220260059459b3f617824c

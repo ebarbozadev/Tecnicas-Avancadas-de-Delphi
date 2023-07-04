@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 unit eUsuario.Model.Query.Firedac;
 
 type
@@ -30,3 +31,37 @@ begin
 end;
 
 end.
+=======
+unit eUsuario.Model.Query.Firedac;
+
+type
+  TModelQueryFiredac = class
+    private
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iQuery;
+  end;
+
+implementation
+
+{ TModelQueryFiredac }
+
+constructor TModelQueryFiredac.Create;
+begin
+
+end;
+
+destructor TModelQueryFiredac.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TModelQueryFiredac.New: iQuery;
+begin
+  Resukt:= Self.Create;
+end;
+
+end.
+>>>>>>> e569085b03d77a6071220260059459b3f617824c

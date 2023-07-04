@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 unit Pessoa;
 
 interface
@@ -42,3 +43,49 @@ begin
 end;
 
 end.
+=======
+unit Pessoa;
+
+interface
+
+uses
+  Interfaces;
+
+type
+  TPessoa = class(TInterfacedObject, iPessoa)
+    private
+    public
+      function mostraNome(Nome : String);
+
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iPessoa;
+  end;
+
+implementation
+
+{ TPessoa }
+
+constructor TPessoa.Create;
+begin
+
+end;
+
+destructor TPessoa.Destroy;
+begin
+
+  inherited;
+end;
+
+function TPessoa.mostraNome(Nome: String);
+begin
+
+end;
+
+class function TPessoa.New: iPessoa;
+begin
+  Result:= Self.Create;
+end;
+
+end.
+>>>>>>> e569085b03d77a6071220260059459b3f617824c

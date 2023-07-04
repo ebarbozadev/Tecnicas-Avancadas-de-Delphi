@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 unit Cliente;
 
 interface
@@ -60,3 +61,55 @@ begin
 end;
 
 end.
+=======
+unit Cliente;
+
+interface
+
+uses
+  System.Classes, Interfaces;
+
+type
+  TCliente = class
+    private
+    public
+      function Nome : String;
+
+      Conexao  : iConexao;
+
+      procedure CadastrarCliente;
+
+      constructor Create(aConexao : iConexao);
+      destructor Destroy; override;
+  end;
+
+implementation
+
+{ TCliente }
+
+procedure TCliente.CadastrarCliente;
+var
+  Lista    : TStringList;
+begin
+  Lista  := TStringList.Create;
+  try
+    Lista.Add('Nome: ' + Nome);
+    Conexao.Gravar;
+  finally
+    Lista.Free;
+  end;
+end;
+
+constructor TCliente.Create(aConexao : iConexao);
+begin
+  Conexao := aConexao;
+end;
+
+destructor TCliente.Destroy;
+begin
+
+  inherited;
+end;
+
+end.
+>>>>>>> e569085b03d77a6071220260059459b3f617824c

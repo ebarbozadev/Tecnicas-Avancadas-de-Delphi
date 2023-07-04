@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 unit Model.Pessoa;
 
 interface
@@ -6,6 +7,16 @@ uses
   Model.Interfaces;
 
 type
+=======
+unit Model.Pessoa;
+
+interface
+
+uses
+  Model.Interfaces;
+
+type
+>>>>>>> e569085b03d77a6071220260059459b3f617824c
   TModelPessoa = class(TInterfacedObject, iPessoa)
     private
     public
@@ -34,4 +45,8 @@ begin
   Result:= Self.Create;
 end;
 
+<<<<<<< HEAD
 end.
+=======
+end.
+>>>>>>> e569085b03d77a6071220260059459b3f617824c

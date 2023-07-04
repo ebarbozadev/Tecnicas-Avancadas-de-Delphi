@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 unit eNota.Controller.NotaFiscal;
 
 interface
@@ -35,3 +36,42 @@ begin
 end;
 
 end.
+=======
+unit eNota.Controller.NotaFiscal;
+
+interface
+
+uses
+  eNota.Controller.NotaFiscal.Interfaces;
+
+type
+  TControllerNotaFiscal = class(TInterfacedObject, iNotaFiscal)
+    private
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iNotaFiscal;
+  end;
+
+implementation
+
+{ TControllerNotaFiscal }
+
+constructor TControllerNotaFiscal.Create;
+begin
+
+end;
+
+destructor TControllerNotaFiscal.Destroy;
+begin
+
+  inherited;
+end;
+
+class function TControllerNotaFiscal.New: iNotaFiscal;
+begin
+  Result := Self.Create;
+end;
+
+end.
+>>>>>>> e569085b03d77a6071220260059459b3f617824c

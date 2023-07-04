@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 unit eUsuario.Model.Conexao.Firedac;
 
 interface
@@ -30,3 +31,37 @@ begin
 end;
 
 end.
+=======
+unit eUsuario.Model.Conexao.Firedac;
+
+interface
+
+uses
+  eUsuario.Model.Conexao.Interfaces;
+
+type
+  tModelConexaoFiredac = class(TInterfacedObject, iConexao)
+    private
+    public
+      constructor Create;
+      destructor Destroy; override;
+      class function New : iConexao;
+  end;
+
+implementation
+
+{ tModelConexaoFiredac }
+
+constructor tModelConexaoFiredac.Create;
+begin
+
+end;
+
+destructor tModelConexaoFiredac.Destroy;
+begin
+
+  inherited;
+end;
+
+end.
+>>>>>>> e569085b03d77a6071220260059459b3f617824c
