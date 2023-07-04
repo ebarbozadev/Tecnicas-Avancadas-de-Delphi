@@ -2,8 +2,11 @@ unit Conexao.SQLServer;
 
 interface
 
+uses
+  Interfaces;
+
 type
-  TConexaoSQLServer = class(TIn)
+  TConexaoSQLServer = class(TInterfacedObject, IConexao)
     procedure Gravar;
   end;
 

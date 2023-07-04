@@ -7,15 +7,19 @@ uses
 
 type
   TCliente = class
-    private
     public
-      Nome     : String;
-      Conexao  : iConexao;
+      Nome      : String;
+      Telefone  : String;
+      Endereco  : String;
+      Cidade    : String;
+      UF        : String;
+      Saldo     : Currency;
 
+      Conexao   : IConexao;
+
+      constructor create;
       procedure CadastrarCliente;
-
-      constructor Create;
-      destructor Destroy; override;
+      procedure CriarFinanceiro;
   end;
 
 implementation
@@ -24,25 +28,34 @@ implementation
 
 procedure TCliente.CadastrarCliente;
 var
-  Lista    : TStringList;
+  Lista  : TStringList;
 begin
   Lista  := TStringList.Create;
   try
     Lista.Add('Nome: ' + Nome);
+    Lista.Add('Telefone: ' + Telefone);
+    Lista.Add('Endereço: ' + Endereco);
+    Lista.Add('Cidade: ' + Cidade);
+    Lista.Add('UF: ' + UF);
+    Lista.SaveToFile(Nome + '_Cliente.txt');
+
     Conexao.Gravar;
+
   finally
     Lista.Free;
   end;
 end;
 
-constructor TCliente.Create;
+constructor TCliente.create;
 begin
+  Conexao  := TConexaoSQLServer.Create;
+  UF       := 'PR';
+  Saldo    := 1000;
 end;
 
-destructor TCliente.Destroy;
+procedure TCliente.CriarFinanceiro;
 begin
 
-  inherited;
 end;
 
 end.

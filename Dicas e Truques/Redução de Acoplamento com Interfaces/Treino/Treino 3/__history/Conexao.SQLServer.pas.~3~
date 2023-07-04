@@ -1,0 +1,23 @@
+unit Conexao.SQLServer;
+
+interface
+
+uses
+  Interfaces;
+
+type
+  TConexaoSQLServer = class(TInterfacedObject, IConexao)
+    public
+      procedure Gravar;
+  end;
+
+implementation
+
+{ TConexaoSQLServer }
+
+procedure TConexaoSQLServer.Gravar;
+begin
+  // Conexao do Banco
+end;
+
+end.

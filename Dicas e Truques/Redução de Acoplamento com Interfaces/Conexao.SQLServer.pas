@@ -6,8 +6,10 @@ uses
   Interfaces;
 
 type
-  TConexaoSQLServer = class(TInterfacedObject, iConexao)
+  TConexaoSQLServer = class(TInterfacedObject, IConexao)
     procedure Gravar;
+  private
+    Teste: string;
   end;
 
 implementation
@@ -16,7 +18,7 @@ implementation
 
 procedure TConexaoSQLServer.Gravar;
 begin
-  // Gravar no Banco
+  Teste := 'Testando SQL';
 end;
 
 end.

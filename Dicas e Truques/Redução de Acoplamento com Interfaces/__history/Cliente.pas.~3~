@@ -3,32 +3,53 @@ unit Cliente;
 interface
 
 uses
-  Conexao.SQLServer;
+  System.Classes;
 
 type
   TCliente = class
-    private
     public
-      Nome     : String;
-      Conexao  : TConexaoSQLServer;
+      Nome      : String;
+      Telefone  : String;
+      Endereco  : String;
+      Cidade    : String;
+      UF        : String;
+      Saldo     : Currency;
 
-      constructor Create;
-      destructor Destroy; override;
+      constructor create;
+      procedure CadastrarCliente;
+      procedure CriarFinanceiro;
   end;
 
 implementation
 
 { TCliente }
 
-constructor TCliente.Create;
+procedure TCliente.CadastrarCliente;
+var
+  Lista  : TStringList;
 begin
-  Conexao := TConexaoSQLServer.Create;
+  Lista  := TStringList.Create;
+  try
+    Lista.Add('Nome: ' + Nome);
+    Lista.Add('Telefone: ' + Telefone);
+    Lista.Add('Endereço: ' + Endereco);
+    Lista.Add('Cidade: ' + Cidade);
+    Lista.Add('UF: ' + UF);
+    Lista.SaveToFile(Nome + '_Cliente.txt');
+  finally
+    Lista.Free;
+  end;
 end;
 
-destructor TCliente.Destroy;
+constructor TCliente.create;
+begin
+  UF     := 'PR';
+  Saldo  := 1000;
+end;
+
+procedure TCliente.CriarFinanceiro;
 begin
 
-  inherited;
 end;
 
 end.

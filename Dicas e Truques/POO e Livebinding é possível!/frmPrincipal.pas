@@ -4,8 +4,11 @@ interface
 
 uses
   Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Data.Bind.Components,
-  Data.Bind.ObjectScope, Vcl.StdCtrls, Vcl.Grids, System.Generics.Collections;
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, Vcl.StdCtrls, Vcl.Grids,
+  Data.Bind.Components, Data.Bind.ObjectScope, System.Generics.Collections,
+  Data.Bind.Controls, Data.Bind.EngExt, Vcl.Bind.DBEngExt, Vcl.Bind.Grid,
+  System.Rtti, System.Bindings.Outputs, Vcl.Bind.Editors, Data.Bind.Grid,
+  Vcl.ExtCtrls, Vcl.Buttons, Vcl.Bind.Navigator, Data.Bind.GenData;
 
 type
   TPessoa = class
@@ -14,9 +17,10 @@ type
     FNome: String;
     procedure SetIdade(const Value: Integer);
     procedure SetNome(const Value: String);
-  public
+    public
       constructor Create(vNome : String; vIdade : Integer);
-      property Nome    : String  read FNome  write SetNome;
+
+      property Nome    : String read FNome write SetNome;
       property Idade   : Integer read FIdade write SetIdade;
   end;
 
@@ -28,8 +32,15 @@ type
     edtNome: TEdit;
     edtIdade: TEdit;
     AdapterBindSource1: TAdapterBindSource;
+    NavigatorAdapterBindSource1: TBindNavigator;
+    BindingsList1: TBindingsList;
+    LinkGridToDataSourceAdapterBindSource1: TLinkGridToDataSource;
+    DataGeneratorAdapter1: TDataGeneratorAdapter;
+    LinkControlToField1: TLinkControlToField;
+    LinkControlToField2: TLinkControlToField;
+    procedure AdapterBindSource1CreateAdapter(Sender: TObject;
+      var ABindSourceAdapter: TBindSourceAdapter);
   private
-    procedure SetListaPessoa(const Value: TList<TPessoa>);
     { Private declarations }
   public
     { Public declarations }
@@ -47,8 +58,8 @@ implementation
 
 constructor TPessoa.Create(vNome: String; vIdade: Integer);
 begin
-  FNome  := vNome;
-  FIdade := vIdade;
+  FNome   := vNome;
+  FIdade  := vIdade;
 end;
 
 procedure TPessoa.SetIdade(const Value: Integer);
@@ -63,14 +74,21 @@ end;
 
 { TForm1 }
 
-procedure TForm1.carregarLista;
+procedure TForm1.AdapterBindSource1CreateAdapter(Sender: TObject;
+  var ABindSourceAdapter: TBindSourceAdapter);
 begin
-  // Carregar Lista
+  ABindSourceAdapter   := TListBindSourceAdapter<TPessoa>.Create(Self, carregarLista);
 end;
 
-procedure TForm1.SetListaPessoa(const Value: TList<TPessoa>);
+function TForm1.carregarLista: TList<TPessoa>;
+var
+  I: Integer;
 begin
-  FListaPessoa := Value;
-end;
+  Result:= TList<TPessoa>.Create;
 
+  for I := 0 to 10 do
+  begin
+    Result.Add(TPessoa.Create('Usuário' + IntToStr(I), 10 + I));
+  end;
+end;
 end.
