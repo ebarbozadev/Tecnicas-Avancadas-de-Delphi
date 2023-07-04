@@ -1,3 +1,60 @@
+<<<<<<< HEAD
+unit Cliente;
+
+interface
+
+uses
+  System.Classes;
+
+type
+  TCliente = class
+    public
+      Nome      : String;
+      Telefone  : String;
+      Endereco  : String;
+      Cidade    : String;
+      UF        : String;
+      Saldo     : Currency;
+
+      constructor create;
+      procedure CadastrarCliente;
+      procedure CriarFinanceiro;
+  end;
+
+implementation
+
+{ TCliente }
+
+procedure TCliente.CadastrarCliente;
+var
+  Lista  : TStringList;
+begin
+  Lista  := TStringList.Create;
+  try
+    Lista.Add('Nome: ' + Nome);
+    Lista.Add('Telefone: ' + Telefone);
+    Lista.Add('Endereço: ' + Endereco);
+    Lista.Add('Cidade: ' + Cidade);
+    Lista.Add('UF: ' + UF);
+    Lista.SaveToFile(Nome + '_Cliente.txt');
+  finally
+    Lista.Free;
+  end;
+end;
+
+constructor TCliente.create;
+begin
+  UF     := 'PR';
+  Saldo  := 1000;
+end;
+
+procedure TCliente.CriarFinanceiro;
+begin
+
+end;
+
+end.
+=======
 unit Cliente;
 
 interface
@@ -32,3 +89,4 @@ begin
 end;
 
 end.
+>>>>>>> e569085b03d77a6071220260059459b3f617824c

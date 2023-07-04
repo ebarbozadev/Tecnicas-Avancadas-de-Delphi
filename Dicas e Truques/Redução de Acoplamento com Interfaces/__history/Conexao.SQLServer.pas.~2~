@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 unit Conexao.SQLServer;
 
 interface
@@ -17,3 +18,24 @@ begin
 end;
 
 end.
+=======
+unit Conexao.SQLServer;
+
+interface
+
+type
+  TConexaoSQLServer = class
+    procedure Gravar;
+  end;
+
+implementation
+
+{ TConexaoSQLServer }
+
+procedure TConexaoSQLServer.Gravar;
+begin
+  // Gravar no Banco
+end;
+
+end.
+>>>>>>> e569085b03d77a6071220260059459b3f617824c

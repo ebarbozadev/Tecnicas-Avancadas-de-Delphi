@@ -1,3 +1,19 @@
+<<<<<<< HEAD
+unit Interfaces;
+
+interface
+
+type
+  // Interface para a conexão
+  IConexao = interface
+    ['{8D127BDA-64D9-4075-8D55-797047C3A505}']
+    procedure Gravar;
+  end;
+
+implementation
+
+end.
+=======
 unit Interfaces;
 
 interface
@@ -18,3 +34,4 @@ type
 implementation
 
 end.
+>>>>>>> e569085b03d77a6071220260059459b3f617824c
