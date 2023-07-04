@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+  <Transactions>
+    <Transaction>2023/07/04 08:52:50.221,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/04 08:53:23.630,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Redução de Acoplamento com Interfaces\Treino\Treino 2\frmPrincipal.dfm=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
+    <Transaction>2023/07/04 08:53:23.630,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Redução de Acoplamento com Interfaces\Treino\Treino 2\frmPrincipal.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/04 08:53:28.018,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/04 08:53:30.387,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Redução de Acoplamento com Interfaces\Treino\Treino 2\Cliente.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/04 08:59:41.042,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/04 08:59:44.840,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Redução de Acoplamento com Interfaces\Treino\Treino 2\Interfaces.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/04 09:00:23.167,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/04 09:00:30.264,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Redução de Acoplamento com Interfaces\Treino\Treino 2\Conexao.SQLServer.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/04 09:01:19.388,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/04 09:01:24.180,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Redução de Acoplamento com Interfaces\Treino\Treino 2\Conexao.MySQL.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/04 09:08:21.068,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Redução de Acoplamento com Interfaces\Treino\Treino 2\Projeto.dproj=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+  </Transactions>
+</BorlandProject>

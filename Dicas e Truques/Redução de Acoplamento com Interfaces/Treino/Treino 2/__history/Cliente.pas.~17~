@@ -1,0 +1,50 @@
+unit Cliente;
+
+interface
+
+uses
+  Interfaces;
+
+type
+  TCliente = class
+    public
+      Nome      : String;
+      DataHoje  : String;
+      Dados     : String;
+      Conexao   : IConexao;
+
+      procedure CadastraCliente;
+
+      function MostraDados : String;
+
+      constructor Create(QualBanco : IConexao);
+      destructor Destroy;
+  end;
+
+implementation
+
+{ TCliente }
+
+constructor TCliente.Create(QualBanco : IConexao);
+begin
+  Conexao   := QualBanco;
+  DataHoje  := '04/07/2023';
+end;
+
+procedure TCliente.CadastraCliente;
+begin
+  Dados := 'Nome: ' + Nome + ' Data de Hoje: ' + DataHoje;
+  Conexao.Gravar;
+end;
+
+destructor TCliente.Destroy;
+begin
+
+end;
+
+function TCliente.MostraDados : String;
+begin
+  Result:=  Self.Dados;
+end;
+
+end.
