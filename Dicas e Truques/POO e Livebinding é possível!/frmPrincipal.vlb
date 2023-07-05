@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿[Label2]
 Coordinates=360,20,46,51
 
@@ -30,3 +31,37 @@ Coordinates=137,90,82,33
 Coordinates=137,90,130,33
 Visible=False
 
+=======
+﻿[Label2]
+Coordinates=360,20,46,51
+
+[AdapterBindSource1]
+Coordinates=660,60,116,123
+Visible=True
+
+[Label1]
+Coordinates=207,20,46,51
+
+[edtNome]
+Coordinates=480,50,58,51
+
+[StringGrid1]
+Coordinates=470,240,70,51
+
+[edtIdade]
+Coordinates=480,120,56,51
+
+[]
+Coordinates=137,90,82,33
+
+[NavigatorAdapterBindSource1]
+Coordinates=380,180,164,51
+
+[BindingsList1]
+Coordinates=137,90,82,33
+
+[DataGeneratorAdapter1]
+Coordinates=137,90,130,33
+Visible=False
+
+>>>>>>> 70d4b2583594a60171b4bfbeb152e61faa99fee5

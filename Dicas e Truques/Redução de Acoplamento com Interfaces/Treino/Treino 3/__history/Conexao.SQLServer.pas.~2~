@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 unit Conexao.SQLServer;
 
 interface
@@ -11,3 +12,18 @@ type
 implementation
 
 end.
+=======
+unit Conexao.SQLServer;
+
+interface
+
+type
+  TConexaoSQLServer = class(TInterfaced, IConexao)
+    public
+      procedure Gravar;
+  end;
+
+implementation
+
+end.
+>>>>>>> 70d4b2583594a60171b4bfbeb152e61faa99fee5

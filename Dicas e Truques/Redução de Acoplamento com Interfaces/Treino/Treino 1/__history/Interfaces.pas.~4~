@@ -18,6 +18,7 @@ implementation
 
 end.
 =======
+<<<<<<< HEAD
 unit Interfaces;
 
 interface
@@ -36,4 +37,24 @@ type
 implementation
 
 end.
+=======
+unit Interfaces;
+
+interface
+
+type
+  iPessoa = interface
+    ['{DB5D193D-05AE-40A7-947D-61D0263E3F7E}']
+    function mostraNome(Nome : String) : String;
+  end;
+
+  iCliente = interface
+    ['{F6E508B2-5D85-4856-A904-4DC9946F04C6}']
+    procedure VIP(Resposta : String);
+  end;
+
+implementation
+
+end.
+>>>>>>> 70d4b2583594a60171b4bfbeb152e61faa99fee5
 >>>>>>> e569085b03d77a6071220260059459b3f617824c

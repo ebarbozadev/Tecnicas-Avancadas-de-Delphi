@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 unit Cliente;
 
 interface
@@ -51,3 +52,58 @@ begin
 end;
 
 end.
+=======
+unit Cliente;
+
+interface
+
+uses
+  System.SysUtils, Interfaces;
+
+type
+  TCliente = class
+    public
+      Nome             : String;
+      Sobrenome        : String;
+      DataNascimento   : String;
+      Idade            : String;
+      DataDeHoje       : String;
+
+      Conexao          : IConexao;
+      procedure Gravar;
+
+      procedure CadastrarUsuario;
+
+      // Trunc((now - DataNascimento) / 365.25)
+
+      constructor Create(QualBanco : IConexao);
+      destructor Destroy;
+  end;
+
+implementation
+
+{ TCliente }
+
+procedure TCliente.CadastrarUsuario;
+begin
+
+end;
+
+constructor TCliente.Create(QualBanco : IConexao);
+begin
+  Conexao      := QualBanco;
+  DataDeHoje   := DateToStr(now);
+end;
+
+destructor TCliente.Destroy;
+begin
+
+end;
+
+procedure TCliente.Gravar;
+begin
+
+end;
+
+end.
+>>>>>>> 70d4b2583594a60171b4bfbeb152e61faa99fee5

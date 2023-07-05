@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
     <PropertyGroup>
         <ProjectGuid>{A73B7739-4212-48D5-BFA7-226A791CE265}</ProjectGuid>
@@ -46,3 +47,53 @@
     </Target>
     <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
 </Project>
+=======
+﻿<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+    <PropertyGroup>
+        <ProjectGuid>{A73B7739-4212-48D5-BFA7-226A791CE265}</ProjectGuid>
+    </PropertyGroup>
+    <ItemGroup>
+        <Projects Include="Project1.dproj">
+            <Dependencies/>
+        </Projects>
+        <Projects Include="..\..\..\..\..\..\Documents\Embarcadero\Studio\Projects\FMXForms.dproj">
+            <Dependencies/>
+        </Projects>
+    </ItemGroup>
+    <ProjectExtensions>
+        <Borland.Personality>Default.Personality.12</Borland.Personality>
+        <Borland.ProjectType/>
+        <BorlandProject>
+            <Default.Personality/>
+        </BorlandProject>
+    </ProjectExtensions>
+    <Target Name="Project1">
+        <MSBuild Projects="Project1.dproj"/>
+    </Target>
+    <Target Name="Project1:Clean">
+        <MSBuild Projects="Project1.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="Project1:Make">
+        <MSBuild Projects="Project1.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="FMXForms">
+        <MSBuild Projects="..\..\..\..\..\..\Documents\Embarcadero\Studio\Projects\FMXForms.dproj"/>
+    </Target>
+    <Target Name="FMXForms:Clean">
+        <MSBuild Projects="..\..\..\..\..\..\Documents\Embarcadero\Studio\Projects\FMXForms.dproj" Targets="Clean"/>
+    </Target>
+    <Target Name="FMXForms:Make">
+        <MSBuild Projects="..\..\..\..\..\..\Documents\Embarcadero\Studio\Projects\FMXForms.dproj" Targets="Make"/>
+    </Target>
+    <Target Name="Build">
+        <CallTarget Targets="Project1;FMXForms"/>
+    </Target>
+    <Target Name="Clean">
+        <CallTarget Targets="Project1:Clean;FMXForms:Clean"/>
+    </Target>
+    <Target Name="Make">
+        <CallTarget Targets="Project1:Make;FMXForms:Make"/>
+    </Target>
+    <Import Project="$(BDS)\Bin\CodeGear.Group.Targets" Condition="Exists('$(BDS)\Bin\CodeGear.Group.Targets')"/>
+</Project>
+>>>>>>> 70d4b2583594a60171b4bfbeb152e61faa99fee5
