@@ -1,0 +1,34 @@
+unit TratarErro;
+
+interface
+
+type
+  TException = class
+    private
+      FArquivoDeErro : String;
+    public
+      constructor Create;
+      procedure TratarExcessao(Responsavel: TObject; Erro: Exception);
+      procedure GravarNoArquivoDeErro(Valor : String);
+  end;
+
+implementation
+
+{ TException }
+
+constructor TException.Create;
+begin
+
+end;
+
+procedure TException.GravarNoArquivoDeErro(Valor: String);
+begin
+
+end;
+
+procedure TException.TratarExcessao(Responsavel: TObject; Erro: Exception);
+begin
+
+end;
+
+end.

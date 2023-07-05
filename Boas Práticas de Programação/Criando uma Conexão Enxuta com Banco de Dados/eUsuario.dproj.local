@@ -1,16 +1,16 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <BorlandProject>
-  <Transactions>
-    <Transaction>2023/07/03 10:25:28.961,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/07/03 10:25:33.307,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
-    <Transaction>2023/07/03 11:12:10.224,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Boas Práticas de Programação\Criando uma Conexão Enxuta com Banco de Dados\eUsuario.View.Principal.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/07/03 11:12:10.224,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Boas Práticas de Programação\Criando uma Conexão Enxuta com Banco de Dados\eUsuario.View.Principal.dfm=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.dfm</Transaction>
-    <Transaction>2023/07/03 11:14:27.781,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/07/03 11:14:44.944,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Boas Práticas de Programação\Criando uma Conexão Enxuta com Banco de Dados\eUsuario.Model.Conexao.Firedac.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/07/03 11:15:58.968,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/07/03 11:16:13.941,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Boas Práticas de Programação\Criando uma Conexão Enxuta com Banco de Dados\eUsuario.Model.Conexao.Interfaces.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/07/03 13:02:21.357,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/07/03 13:03:56.074,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Boas Práticas de Programação\Criando uma Conexão Enxuta com Banco de Dados\eUsuario.Model.Query.Firedac.pas=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
-    <Transaction>2023/07/03 13:16:20.849,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Boas Práticas de Programação\Criando uma Conexão Enxuta com Banco de Dados\eUsuario.dproj=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+	<Transactions>
+    <Transaction>2023/07/03 10:25:28.000.961,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/03 10:25:33.000.307,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit2.pas</Transaction>
+    <Transaction>2023/07/03 11:12:10.000.224,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Boas Práticas de Programação\Criando uma Conexão Enxuta com Banco de Dados\eUsuario.View.Principal.dfm</Transaction>
+    <Transaction>2023/07/03 11:12:10.000.224,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Boas Práticas de Programação\Criando uma Conexão Enxuta com Banco de Dados\eUsuario.View.Principal.pas</Transaction>
+    <Transaction>2023/07/03 11:14:27.000.781,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/03 11:14:44.000.944,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Boas Práticas de Programação\Criando uma Conexão Enxuta com Banco de Dados\eUsuario.Model.Conexao.Firedac.pas</Transaction>
+    <Transaction>2023/07/03 11:15:58.000.968,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/03 11:16:13.000.941,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Boas Práticas de Programação\Criando uma Conexão Enxuta com Banco de Dados\eUsuario.Model.Conexao.Interfaces.pas</Transaction>
+    <Transaction>2023/07/03 13:02:21.000.357,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/03 13:03:56.000.074,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Boas Práticas de Programação\Criando uma Conexão Enxuta com Banco de Dados\eUsuario.Model.Query.Firedac.pas</Transaction>
+    <Transaction>2023/07/03 13:16:20.000.849,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Boas Práticas de Programação\Criando uma Conexão Enxuta com Banco de Dados\eUsuario.dproj</Transaction>
   </Transactions>
 </BorlandProject>

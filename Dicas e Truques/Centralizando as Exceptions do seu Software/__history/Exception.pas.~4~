@@ -1,0 +1,33 @@
+unit Exception;
+
+interface
+
+uses
+  System.SysUtils;
+
+type
+  TException = class
+    private
+      FLogFile : String;
+    public
+      constructor Create;
+      procedure calcular(valor1 : integer; valor2 : currency);
+      procedure TrataException(Sender : TObject; E : Exception);
+  end;
+
+implementation
+
+{ TException }
+
+constructor TException.Create;
+begin
+
+  FLogFile := ChangeFileEx(ParamStr(0), '.log');
+end;
+
+procedure TException.TrataException(Sender: TObject; E: Exception);
+begin
+
+end;
+
+end.

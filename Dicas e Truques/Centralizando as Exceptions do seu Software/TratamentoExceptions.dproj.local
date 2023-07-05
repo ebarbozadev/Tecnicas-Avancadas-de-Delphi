@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/07/05 08:58:48.000.425,=C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/05 09:11:38.000.021,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.pas=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Centralizando as Exceptions do seu Software\Unit1.pas</Transaction>
+    <Transaction>2023/07/05 09:11:38.000.021,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Unit1.dfm=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Centralizando as Exceptions do seu Software\Unit1.dfm</Transaction>
+    <Transaction>2023/07/05 09:11:47.000.800,C:\Users\PC05\Documents\Embarcadero\Studio\Projects\Project1.dproj=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Centralizando as Exceptions do seu Software\TratamentoExceptions.dproj</Transaction>
+    <Transaction>2023/07/05 09:12:09.000.546,=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Centralizando as Exceptions do seu Software\Unit2.pas</Transaction>
+    <Transaction>2023/07/05 09:12:30.000.018,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Centralizando as Exceptions do seu Software\Unit2.pas=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Centralizando as Exceptions do seu Software\Exception.pas</Transaction>
+    <Transaction>2023/07/05 09:25:04.000.833,C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Centralizando as Exceptions do seu Software\Exception.pas=C:\Users\PC05\Downloads\Cursos\Delphi\Técnicas Avançadas de Delphi\Dicas e Truques\Centralizando as Exceptions do seu Software\TrataException.pas</Transaction>
+  </Transactions>
+</BorlandProject>

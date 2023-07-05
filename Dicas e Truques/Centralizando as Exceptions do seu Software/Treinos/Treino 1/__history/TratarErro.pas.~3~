@@ -1,0 +1,50 @@
+unit TratarErro;
+
+interface
+
+uses
+  System.SysUtils;
+
+type
+  TException = class
+    private
+      // Arquivo que vai conter todos os erros
+      FArquivoDeErro : String;
+    public
+      constructor Create;
+      {
+        'Responsavel' é aonde que qualquer erro que der, vai executar
+        'Erro' vai pegar a excessão que der
+
+        Ou seja, a procedure 'TratarExcessao' vai receber dois paraâmetros, um responsável do tipo objeto por receber o erro
+          e um erro do tipo exception
+      }
+      procedure TratarExcessao(Responsavel: TObject; Erro: Exception);
+      // Procedure responsável por gravar o erro no arquivo
+      procedure GravarNoArquivoDeErro(Valor : String);
+  end;
+
+implementation
+
+{ TException }
+
+constructor TException.Create;
+begin
+  {
+    Pega a variável e faz uma mudança retornando seu próprio nome e alterando a extensão para .log
+  }
+  FArquivoDeErro := ChangeFileExt(ParamStr(0), '.log');
+  Application.OnException := TratarExcessao;
+end;
+
+procedure TException.GravarNoArquivoDeErro(Valor: String);
+begin
+
+end;
+
+procedure TException.TratarExcessao(Responsavel: TObject; Erro: Exception);
+begin
+
+end;
+
+end.
